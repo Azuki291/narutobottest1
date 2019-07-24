@@ -23,6 +23,6 @@ bot.on('message', message => {
     }
     
     if (message.content === prefix + "creator"){
-        message.channel.sendMessage("***Bot by*** __**Azuki <3**__");
+        message.reply("***Bot by*** __**Azuki <3**__");
     }
 });
