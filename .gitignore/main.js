@@ -29,4 +29,14 @@ bot.on('message', message => {
     if (message.content === prefix + "infobot"){
         message.reply("Création du bot le 23/07/2019 à 23 : 06 : 24");
     }
+
+    if (message.content === prefix + "embed"){
+        var embed = new Discord.RichEmbed()
+            .setTitle("EMBED")
+            .setDescription("Ceci est une description")
+            .setField(".help", "Page d'aide", true)
+            .setField("Embed 01","Embed 01 ! Faites-moi un don paypal : (https://paypal.me/pools/c/8gJDGxq0vg)", true)
+            .setColor("0x2D8ECF")
+            .SetFooter("Merci à toi ! ^^")
+    }
 });
