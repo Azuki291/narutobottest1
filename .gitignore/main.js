@@ -14,7 +14,7 @@ bot.login(config.token);
 
 bot.on('message', message => {
     if (message.content === prefix + "help"){
-        message.channel.sendMessage("Liste des commandes: \n - **/help** \n - **/creator**");
+        message.channel.sendMessage("Liste des commandes: \n **Général :** \n - **/help** \n - **/creator** \n -**/infobot**");
     }
 
     if (message.content === "Salut"){
