@@ -23,6 +23,10 @@ bot.on('message', message => {
     }
     
     if (message.content === prefix + "creator"){
-        message.reply("***Bot made by*** __**Azuki <3**__");
+        message.reply("***Bot made by*** __**Azuki<3**__");
+    }
+
+    if (message.content === prefix + "infobot"){
+        message.reply("Création du bot le 23/07/2019 à 23 : 06 : 24");
     }
 });
