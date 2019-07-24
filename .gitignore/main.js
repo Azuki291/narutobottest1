@@ -21,4 +21,8 @@ bot.on('message', message => {
         message.reply("Bien le bonjour ! :wave:");
         console.log("Commande Salut effectué");
     }
+    
+    if (message.content === prefix + "fabriquant"){
+        message.channel.sendMessage("***Bot by*** __**Azuki <3**__");
+    }
 });
