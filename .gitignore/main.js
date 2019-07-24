@@ -38,5 +38,7 @@ bot.on('message', message => {
             .setField("Embed 01","Embed 01 ! Faites-moi un don paypal : (https://paypal.me/pools/c/8gJDGxq0vg)", true)
             .setColor("0x2D8ECF")
             .SetFooter("Merci à toi ! ^^")
+        message.channel.sendEmbed(embed);
     }
+    
 });
