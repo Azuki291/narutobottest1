@@ -14,7 +14,7 @@ bot.login(config.token);
 
 bot.on('message', message => {
     if (message.content === prefix + "help"){
-        message.channel.sendMessage("Liste des commandes: \n - **/help**");
+        message.channel.sendMessage("Liste des commandes: \n - **/help** \n - **/creator**");
     }
 
     if (message.content === "Salut"){
@@ -22,7 +22,7 @@ bot.on('message', message => {
         console.log("Commande Salut effectué");
     }
     
-    if (message.content === prefix + "fabriquant"){
+    if (message.content === prefix + "creator"){
         message.channel.sendMessage("***Bot by*** __**Azuki <3**__");
     }
 });
